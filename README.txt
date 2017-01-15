@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/Giansar/pen/apZxZP.
-
- 
+An absolutely awful website made in between data collection for research on hackathons
