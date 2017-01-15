@@ -18,7 +18,8 @@ var concept1 = [
 	"prevention of anti-progress groups",
 	"analysis of new wave jazz",
 	"popularity of slowed down elevator music", 
-	"number of books read by 3rd graders"
+	"number of books read by 3rd graders",
+	"resounding scientific acceptance of global warming"
 ];
 
 var concept2 = [
@@ -36,7 +37,9 @@ var concept2 = [
 	"my own existential state of being",
 	"the number of bees on the ASU campus", 
 	"the rainforest in Columbia", 
-	"the amount of sugar in a venti mocha frappuccino at Starbucks"
+	"the amount of sugar in a venti mocha frappuccino at Starbucks",
+	"the number of existential texts required to feel nothing",
+	"the number of tears shed during that one dog episode of Futurama"
 ];
 
 var place = [
@@ -48,8 +51,12 @@ var place = [
 	"pop culture",
 	"the White House",
 	"sketchy motel bathrooms",
-	"the middle of the Marianas Trench"
-];
+	"the middle of the Marianas Trench",
+	"the Middle East",
+	"the Middle Earth",
+	"Hogwarts",
+	"ɐᴉlɐɹʇsn∀",
+	];
 
 function getRandomElement(things) {
 	return things[Math.floor(Math.random()*things.length)]
