@@ -17,19 +17,8 @@ var concept1 = [
 	"decapitation of innocent lettuce heads",
 	"prevention of anti-progress groups",
 	"analysis of new wave jazz",
-	"popularity of slowed down elevator music"
-];
-
-var place = [
-	"rural areas",
-	"Phoenix, AZ",
-	"the middle of nowhere",
-	"Camelot",
-	"the average American household",
-	"pop culture",
-	"the White House",
-	"sketchy motel bathrooms",
-	"the middle of the Marianas Trench"
+	"popularity of slowed down elevator music", 
+	"number of books read by 3rd graders"
 ];
 
 var concept2 = [
@@ -42,7 +31,24 @@ var concept2 = [
 	"the current state of affairs",
 	"the underlying Illuminati presence",
 	"the destruction of the fourth wall",
-	"the destruction of humanity as we know it"
+	"the destruction of humanity as we know it", 
+	"the amount of snow on Mount Lemmon", 
+	"my own existential state of being",
+	"the number of bees on the ASU campus", 
+	"the rainforest in Columbia", 
+	"the amount of sugar in a venti mocha frappuccino at Starbucks"
+];
+
+var place = [
+	"rural areas",
+	"Phoenix, AZ",
+	"the middle of nowhere",
+	"Camelot",
+	"the average American household",
+	"pop culture",
+	"the White House",
+	"sketchy motel bathrooms",
+	"the middle of the Marianas Trench"
 ];
 
 function getRandomElement(things) {
@@ -59,6 +65,9 @@ var questions = function() {
 	case 1:
 		question.textContent = "What does the correlation between the " + getRandomElement(concept1) + " and " + getRandomElement(concept2) + " imply?";
 		break;
+	case 2:
+		question.textContent = "Regarding the " + getRandomElement(concept1) + ", why should we be worried about " + getRandomElement(concept2) + "?"; 
+		break; 
 	}
 };
 
