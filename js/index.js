@@ -63,7 +63,7 @@ function getRandomElement(things) {
 }
 
 var question = document.getElementById('question');
-var qnum = 2;
+var qnum = 3;
 var questions = function() {
 	switch(Math.floor(Math.random()*qnum)) {
 	case 0:
